@@ -13,7 +13,7 @@ The project explores multiple architectures, model calibration, interpretability
 
 ---
 
-![GradCAM Visualization](images/gradcam_example.png)
+![GradCAM Visualization](images/gradcam_examples.png)
 
 ---
 
@@ -58,7 +58,7 @@ Total images: **1821**
 
 Example samples from the dataset:
 
-![Dataset Samples](images/dataset_sample.png)
+![Dataset Samples](images/dataset_samples.png)
 
 ---
 
@@ -108,7 +108,7 @@ Grad-CAM was used to visualize the regions of the image that most influenced the
 
 This allows verification that the model focuses on **biologically relevant parts of the flower** rather than background artifacts.
 
-![GradCAM](images/gradcam_example.png)
+![GradCAM](images/gradcam_examples.png)
 
 ---
 
