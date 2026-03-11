@@ -1,10 +1,19 @@
 # 🌸 Flower Recognition — Deep Learning Computer Vision
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![Computer Vision](https://img.shields.io/badge/ComputerVision-CNN-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A deep learning project for **flower image classification** using PyTorch and Transfer Learning.
 
 The goal of the project is to build a robust computer vision pipeline capable of distinguishing between **Daisy** and **Dandelion** flowers using modern convolutional neural networks.
 
 The project explores multiple architectures, model calibration, interpretability techniques, and inference improvements.
+
+---
+
+![GradCAM Visualization](images/gradcam_example.png)
 
 ---
 
@@ -20,6 +29,19 @@ The system implements a complete machine learning pipeline:
 * Test Time Augmentation (TTA)
 
 The objective metric for model selection is **F1 Macro Score**.
+
+---
+
+## Key Results
+
+| Metric | Value |
+|------|------|
+| Best Backbone | ConvNeXt-Tiny |
+| Test F1 Macro | **0.9887** |
+| Optimal Threshold | **0.36** |
+| Expected Calibration Error (ECE) | **0.0301** |
+
+The final model demonstrates strong classification performance with well-calibrated probability estimates.
 
 ---
 
@@ -141,7 +163,7 @@ Open the notebook:
 jupyter notebook notebook/flower_recognition.ipynb
 ```
 
-Run all cells to reproduce the training and evaluation pipeline.
+Run all notebook cells to reproduce the full training, evaluation, and interpretability pipeline.
 
 ---
 
