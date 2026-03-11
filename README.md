@@ -5,7 +5,7 @@
 ![Computer Vision](https://img.shields.io/badge/ComputerVision-CNN-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-A deep learning project for **flower image classification** using PyTorch and Transfer Learning.
+A computer vision project for **flower image classification** built with **PyTorch and transfer learning**.
 
 The goal of the project is to build a robust computer vision pipeline capable of distinguishing between **Daisy** and **Dandelion** flowers using modern convolutional neural networks.
 
@@ -58,7 +58,7 @@ Total images: **1821**
 
 Example samples from the dataset:
 
-![Dataset Samples](images/dataset_samples.png)
+![Dataset Samples](images/dataset_sample.png)
 
 ---
 
@@ -108,7 +108,7 @@ Grad-CAM was used to visualize the regions of the image that most influenced the
 
 This allows verification that the model focuses on **biologically relevant parts of the flower** rather than background artifacts.
 
-![GradCAM](images/gradcam_examples.png)
+![GradCAM](images/gradcam_example.png)
 
 ---
 
@@ -150,6 +150,11 @@ flower-recognition-cnn
 ---
 
 # Running the Project
+
+Clone the repository:
+
+git clone https://github.com/Nimus74/flower-recognition-cnn.git
+cd flower-recognition-cnn
 
 Install dependencies:
 
