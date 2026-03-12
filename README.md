@@ -180,3 +180,16 @@ Possible extensions include:
 * Vision Transformer architectures
 * temperature scaling for improved calibration
 * deployment with ONNX for edge inference
+
+---
+
+## Author
+
+**Francesco Scarano**  
+Senior IT Manager | AI Engineering | Data & Digital Solutions
+
+GitHub:  
+https://github.com/Nimus74
+
+LinkedIn:  
+https://www.linkedin.com/in/francescoscarano/
